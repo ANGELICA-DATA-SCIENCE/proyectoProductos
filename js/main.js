@@ -21,7 +21,7 @@ function createCards(products) {
     products.forEach(p => {
        
         divData.insertAdjacentHTML("beforeend", `
-        <div class="card col style= padding:10px">
+        <div class="card col-sm style= padding:10px">
         <img src="${p.image}" class="card-img-top" style="objet-fit: contain;width: 100%; height: 250px; alt="${p.description}">
         <div class="card-body">
             <h5 class="card-title">${p.name}</h5>
